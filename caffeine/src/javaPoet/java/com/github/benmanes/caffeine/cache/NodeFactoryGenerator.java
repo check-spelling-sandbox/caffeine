@@ -206,7 +206,7 @@ public final class NodeFactoryGenerator {
   private static String encode(String className) {
     return Feature.makeEnumName(className)
         .replaceFirst("STRONG_KEYS", "P") // puissant
-        .replaceFirst("WEAK_KEYS", "F") // faible
+        .replaceFirst("WEAK_KEYS", "F") // failable
         .replaceFirst("_STRONG_VALUES", "S")
         .replaceFirst("_WEAK_VALUES", "W")
         .replaceFirst("_SOFT_VALUES", "D") // doux
