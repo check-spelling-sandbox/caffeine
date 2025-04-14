@@ -1260,7 +1260,7 @@ public class JSR166TestCase extends TestCase {
     }
 
     /**
-     * The maximum number of consecutive spurious wakeups we should
+     * The maximum number of consecutive spurious wake-ups we should
      * tolerate (from APIs like LockSupport.park) before failing a test.
      */
     static final int MAX_SPURIOUS_WAKEUPS = 10;
