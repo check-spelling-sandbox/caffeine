@@ -23,7 +23,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Dependency Review
-        uses: actions/dependency-review-action@ce3cf9537a52e8119d91fd484ab5b8a807627bf8 # v4.6.0
+        uses: check-spelling-sandbox/dependency-review-action@306647a9c66ff4d135adf526ba17ef08c0718669
         with:
           license-check: false
           comment-summary-in-pr: on-failure
