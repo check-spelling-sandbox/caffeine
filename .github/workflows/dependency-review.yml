@@ -19,11 +19,11 @@ jobs:
             api.github.com:443
             github.com:443
       - name: Checkout
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@main # v4.2.2
         with:
           persist-credentials: false
       - name: Dependency Review
-        uses: check-spelling-sandbox/dependency-review-action@306647a9c66ff4d135adf526ba17ef08c0718669
+        uses: actions/dependency-review-action@main # v4.6.0
         with:
           license-check: false
           comment-summary-in-pr: on-failure
