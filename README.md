@@ -107,6 +107,8 @@ implementation("com.github.ben-manes.caffeine:jcache:3.2.0")
 
 For Java 11 or above, use `3.x` otherwise use `2.x`.
 
+
+
 See the [release notes][releases] for details of the changes.
 
 Snapshots of the development version are available in
